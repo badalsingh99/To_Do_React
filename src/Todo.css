@@ -1,0 +1,119 @@
+/* Todo.css */
+*{
+    background-image: url(http://source.unsplash.com/1600x1100/?nature);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: #f44336; */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.main-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 220px;
+
+}
+.main {
+    width: 560px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #f5f6f7;
+    border: 1px solid gray;
+    position: absolute;
+    opacity: 0.9;
+  }
+  .heading{
+    background: #f5f6f7;
+  }
+  
+  input {
+    width: 450px;
+    border-radius: 4px;
+    border: 1px solid black;
+    outline: none;
+    background: #ffffff;
+    color: #0c0c0c;
+    padding: 8px;
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+  .add-btn:hover {
+    background-color: #3c92d8;
+  }
+  
+  .box {
+    width: 95%;
+    margin: 10px;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    background: #cff4ff;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  .task{
+    background: #cff4ff;
+    padding: 2px;
+  }
+
+  p {
+    background: #cff4ff;
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .add-btn{
+    width: 70px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #58c2ff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  .edit-btn{
+    width: 70px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #55b161;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  .edit-btn:hover{
+    background: #2d963b;
+  }
+  .remove-btn {
+    width: 70px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #ff5d34;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  .remove-btn:hover{
+   background-color: red; 
+  }
+
+  /* Responsive styles using media queries */
+@media only screen and (min-width: 600px) {
+    .main {
+        margin-top: 100px; /* Adjusted margin for larger screens */
+    }
+}
